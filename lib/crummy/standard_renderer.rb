@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Crummy
   class StandardRenderer
     include ActionView::Helpers::UrlHelper
