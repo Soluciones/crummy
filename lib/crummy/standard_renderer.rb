@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 module Crummy
   class StandardRenderer
     include ActionView::Helpers::UrlHelper

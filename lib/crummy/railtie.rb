@@ -9,7 +9,7 @@ module Crummy
 	ActionController::Base.send :include,  Crummy::ControllerMethods 
       end
     end
-    
+
     initializer "crummy.action_view" do |app|
       require 'crummy/action_view'
       ActionView::Base.send :include, Crummy::ViewMethods
