@@ -49,14 +49,6 @@ module Crummy
       @truncate = nil
       @right_side = false
     end
-
-    def active_li_class=(class_name)
-      puts "CRUMMY: The 'active_li_class' option is DEPRECATED and will be removed from a future version"
-    end
-
-    def active_li_class
-      puts "CRUMMY: The 'active_li_class' option is DEPRECATED and will be removed from a future version"
-    end
   end
 
   if defined?(Rails::Railtie)
