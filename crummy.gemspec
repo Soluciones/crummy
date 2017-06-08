@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require "crummy/version"
 
@@ -20,7 +19,6 @@ Gem::Specification.new do |s|
 
   s.homepage = "http://github.com/zachinglis/crummy"
   s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.8}
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'bundler',     '~> 1.0'
