@@ -3,7 +3,8 @@ module Crummy
   class StandardRenderer
     include ActionView::Helpers::UrlHelper
     include ActionView::Helpers::TagHelper unless self.included_modules.include?(ActionView::Helpers::TagHelper)
-    ActionView::Helpers::TagHelper::BOOLEAN_ATTRIBUTES.merge([:itemscope].to_set)
+    ActionView::Helpers::TagHelper::BOOLEAN_ATTRIBUTES =
+      ActionView::Helpers::TagHelper::BOOLEAN_ATTRIBUTES.dup.merge([:itemscope].to_set).freeze
 
     # Render the list of crumbs as either html or xml
     #
