@@ -11,17 +11,17 @@ Gem::Specification.new do |s|
   s.authors = ["Zach Inglis", "Andrew Nesbitt"]
   s.summary = "Tasty breadcrumbs!"
   s.description = "Crummy is a simple and tasty way to add breadcrumbs to your Rails applications."
-  s.email = "zach+crummy@londonmade.co.uk"
+  s.email = "rails@rankia.com"
   s.extra_rdoc_files = ["README.md"]
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  s.homepage = "http://github.com/zachinglis/crummy"
+  s.homepage = "https://github.com/Soluciones/crummy/"
   s.require_paths = [%q{lib}]
 
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'bundler',     '~> 1.0'
+  s.add_development_dependency 'bundler',     '~> 2.0'
   s.add_development_dependency 'activesupport'
   s.add_development_dependency 'actionpack'
   s.add_development_dependency 'appraisal'
